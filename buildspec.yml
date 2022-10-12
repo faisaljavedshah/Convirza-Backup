@@ -1,0 +1,20 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - npm install --save-dev @angular-devkit/build-angular
+      - npm install -g @angular/cli@12.2.12
+      - npm install --legacy-peer-deps
+  build:
+    commands:
+      - ng build --configuration production
+  post_build:
+    commands:
+      - echo Entered the post_build phase...
+artifacts:
+  base-directory: dist
+  files:
+    - '**/*'
+  discard-paths: yes
