@@ -29,6 +29,8 @@
 
               "src/favicon.ico",
               "src/assets",
+              "src/package-lock.json",
+              "src/package.json",
               "src/server.js"],
             "styles": [
 
