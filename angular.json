@@ -28,10 +28,7 @@
             "assets": [
 
               "src/favicon.ico",
-              "src/assets",
-              "src/package-lock.json",
-              "src/package.json",
-              "src/server.js"],
+              "src/assets"],
             "styles": [
 
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
