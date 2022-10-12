@@ -18,6 +18,6 @@ phases:
       - echo Entered the post_build phase...
 artifacts:
   files:
-  base-directory: src
     - '**/*'
+  base-directory: src
   discard-paths: yes
